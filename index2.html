@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StockFlash - Your go-to resource for stock market insights, strategies, and tips by Shashank Chaturvedi.">
+    <title>StockFlash - Stock Market Knowledge by Shashank Chaturvedi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for styling -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="stock-market-knowledge.html">Stock Market Knowledge</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home">
+        <div class="intro">
+            <img src="Shashank.jpg" alt="Shashank Chaturvedi" class="profile-photo">
+            <h1>Welcome to StockFlash!</h1>
+            <p>Hi, I'm Shashank Chaturvedi. StockFlash is your go-to resource for valuable insights, strategies, and tips on navigating the stock market. Whether you're a beginner or experienced investor, explore my content to learn how to make informed financial decisions.</p>
+        </div>
+    </section>
+
+    <!-- About Page (Separate file) -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Learn more about my background, my journey into the stock market, and the insights I offer to investors and traders. My goal is to help you become more informed and confident in your financial decisions.</p>
+    </section>
+
+    <!-- Stock Market Knowledge Page -->
+    <section id="knowledge">
+        <h2>Stock Market Insights</h2>
+        <p>Here, I share detailed articles, strategies, and tips on stock trading, market analysis, and investment techniques. Stay updated with the latest trends!</p>
+    </section>
+
+    <!-- Videos Page -->
+    <section id="videos">
+        <h2>Stock Market Video Insights</h2>
+        <p>Check out my videos where I explain key stock market concepts, analysis, and more.</p>
+        <div class="video-gallery">
+            <!-- Example of embedding a video -->
+            <iframe src="https://www.youtube.com/watch?v=MQ9uOEo4t6M"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Add more videos as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to get in touch with me, feel free to reach out via the contact form below or through my contact details:</p>
+        <ul>
+            <li><strong>Phone:</strong> 9634794514</li>
+            <li><strong>Email:</strong> <a href="mailto:vv054317@gmail.com">vv054317@gmail.com</a></li>
+        </ul>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 StockFlash by Shashank Chaturvedi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
